@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+}
+
+body{
+    display: block;
+    height: 100%;
+    font-family: Poppins, sans-serif;
+    background: #FAF4F2;
+    justify-items: center;
+
+}
+header{
+    width: 1440px;
+}
+.intro{
+    display: flex;
+}
+header .intro .intro-content h1{
+    width: 475px;
+    color: #222;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px;
+    margin: 112px 201px 7px 182px;
+}
+header .intro .intro-content p{
+    width: 509px;
+    height: 144px;
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0 167px 54px 182px;
+}
+header .intro .intro-content .social-media{
+    margin: 0 436px 25px 182px;
+}
+header .intro .intro-content .contact-buttons{
+    display: flex;
+    margin: 0 0 125px 182px;
+}
+header .intro .intro-content .contact-buttons .btn_send-request{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 151px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: #FF2950;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 30px;
+    text-decoration: none;
+    color: #F9F9F9;
+}
+
+header .intro .intro-content .contact-buttons .btn_download-cv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 153px;
+    height: 55px;
+    border-radius: 10px;
+    border: 2px solid #FF9B70;
+    color: rgba(34, 34, 34, 0.50);
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+header .intro .profile-image img{
+    width: 406px;
+    height: 406px;
+    margin: 100px 176px 188px 0;
+}
+.completed-projects {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 494px 646px;
+    width: 1140px;
+    height: 519px;
+    border-radius: 35px;
+    background: #FF7315;
+    margin: 0 auto 125px auto;
+}
+.completed-projects .projects-info .h2_tex1 {
+    color: #F9F9F9;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px;
+    margin: 62px 0 16px 0;
+}
+.completed-projects .projects-info .p_tex2 {
+    color: #F9F9F9;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+.completed-projects .projects-info .h3_tex3 {
+    color: #F9F9F9;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px;
+    margin: 19px 0 19px 0;
+}
+.completed-projects .projects-info .p_tex4 {
+    color: #F9F9F9;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    margin: 0 76px 63px 0;
+}
+
+
+
+main .why-hire-me h2{
+    color: #222;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px;
+    margin-bottom: 100px;
+}
+main .why-hire-me .qualities{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+}
+main .why-hire-me .qualities .quality img{
+    display: flex;
+    margin: 0 auto;
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+    background-color: #dedede;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+main .why-hire-me .qualities .quality h4{
+    color: #222;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    margin: 51px 0 12px 0;
+}
+main .why-hire-me .qualities .quality p{
+    width: 240px;
+    color: rgba(34, 34, 34, 0.50);
+    text-align: center;
+    font-size: 18px;
+    /*font-style: normal;*/
+    font-weight: 400;
+    line-height: 30px;
+}
+.portfolio > h2{
+    color: #222;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    margin: 125px 1087px 64px 150px;
+    text-align: left;
+}
+.portfolio .portfolio-gallery{
+    display: flex;
+    width: 978px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: inherit;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.testimonials{
+    width: 1440px;
+    height: 643px;
+    background: #FF7315;
+    margin-top: 125px;
+    justify-items: center;
+}
+.testimonials h2{
+    width: 609px;
+    color: #F9F9F9;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    padding-top: 48px;
+}
+.testimonials .comments{
+    display: flex;
+    gap: 82px;
+}
+.testimonials .comments .testimonial{
+    width: 529px;
+    height: 179px;
+    border-radius: 30px;
+    background: #F9F9F9;
+    gap: 82px;
+    display: flex;
+    margin-top: 111px;
+}
+.testimonials .comments .testimonial p{
+    color: #222;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 24px 55px auto 55px;
+}
+
+
+
+.pricing h2{
+    color: #222;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 125px;
+    margin-bottom: 64px;
+}
+.pricing .price-plans{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 68px;
+}
+.pricing .price-plans .price-plan{
+    width: 335px;
+    height: 500px;
+    border-radius: 15px;
+    background: #F9F9F9;
+    box-shadow: 0 20px 40px 0 rgba(255, 115, 21, 0.10);
+    text-decoration: none;
+
+}
+.pricing .price-plans .price-plan h3{
+    width: 335px;
+    height: 66px;
+    border-radius: 15px 15px 0 0;
+    background: #FF9B70;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+    color: #F9F9F9;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    margin-bottom: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pricing .price-plans .price_hour {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 29px;
+}
+.pricing .price-plans .price_hour p.price{
+    color: #2B2B2B;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123.6%;
+    text-transform: capitalize;
+}
+.pricing .price-plans .price_hour p.hour{
+    width: 43px;
+    height: 24px;
+    color: #2B2B2B;
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: capitalize;
+    opacity: 0.5;
+    margin-top: 10px;
+}
+.pricing .price-plans .price-plan ul{
+    list-style-type: none;
+    text-align: left;
+}
+.pricing .price-plans ul .included{
+    color: #222;
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+.pricing .price-plans ul .not-included{
+    color: #222;
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: capitalize;
+    opacity: 0.5;
+}
+.pricing .price-plans .price-plan ul li:nth-last-of-type(8){
+    margin-bottom: 17px;
+}
+.pricing .price-plans .price-plan ul li:nth-last-of-type(7){
+    margin-bottom: 15px;
+}
+.pricing .price-plans .price-plan ul li:nth-last-of-type(6){
+    margin-bottom: 16px;
+}
+.pricing .price-plans .price-plan ul li:nth-last-of-type(5){
+    margin-bottom: 16px;
+}
+.pricing .price-plans .price-plan ul li:nth-last-of-type(4){
+    margin-bottom: 16px;
+}
+.pricing .price-plans .price-plan ul li:nth-last-of-type(3){
+    margin-bottom: 16px;
+}
+.pricing .price-plans .price-plan ul li:nth-last-of-type(2){
+    margin-bottom: 17px;
+}
+.pricing .price-plans .price-plan ul li:nth-last-of-type(1){
+    margin-bottom: 24px;
+}
+.pricing .price-plans .price-plan ul .not-included:before{
+    content: "✖";
+    color: #222222;
+    margin-right: 8px;
+    font-weight: bold;
+}
+.pricing .price-plans .price-plan ul .included:before{
+    content: "✔";
+    color: #FF7315;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1110px;
+    height: 224px;
+    border-radius: 25px;
+    background: #FF7315;
+    margin-top: 100px;
+    gap: 333px;
+}
+.contact h2{
+    color: #F9F9F9;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px;
+    margin-left: 75px;
+}
+.contact a{
+    width: 259px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #222;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: #F9F9F9;
+    margin-right: 100px;
+}
+
+
+
+.blog h2{
+    color: #222;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px;
+    display: flex;
+    margin: 125px 1087px 64px 150px;
+}
+
+.blog .blog-posts{
+    margin-bottom: 125px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.blog .blog-posts .blog-post{
+    width: 270px;
+    height: 364px;
+    border-radius: 15px;
+    background: #F9F9F9;
+    box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.07);
+    justify-items: center;
+}
+.blog .blog-posts .blog-post img{
+    margin-top: 15px;
+    border-radius: 15px;
+}
+.blog .blog-posts .blog-post h3{
+    color: #222;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 123.6%;
+    margin: 24px 21px 12px 16px;
+}
+.blog .blog-posts .blog-post p{
+    width: 240px;
+    color: rgba(34, 34, 34, 0.50);
+    font-kerning: none;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0 14px 0 16px;
+}
+
+
+footer{
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    background: #F1F1F1;
+}
+footer .Copyright p{
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
